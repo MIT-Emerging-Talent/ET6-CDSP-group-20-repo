@@ -1,10 +1,13 @@
 # 🤝 Team Collaboration Charter
 
-Welcome to our project repository! This document outlines our team norms, values, and collaboration guidelines. Please review and follow these principles to ensure a respectful, productive, and enjoyable working environment.
+Welcome to our project repository! This document outlines our
+team norms, values, and collaboration guidelines. Please review and follow these
+principles to ensure a respectful, productive,and enjoyable working environment.
 
 ---
 
 ## 1. Trust & Accountability
+
 - ✅ Deliver tasks on time, tracked in **GitHub issues**.
 - 📢 Communicate blockers early via **Slack/WhatsApp**.
 - 🌟 Recognize efforts using Slack’s **Compliments Jar** and team meetings.
@@ -14,6 +17,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 2. Respectful Collaboration
+
 - 👂 Actively listen and ensure everyone is heard.
 - 💡 Acknowledge ideas and offer constructive feedback.
 - 🕒 Respect deadlines and avoid interruptions.
@@ -34,6 +38,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 4. Meetings
+
 - 📅 Schedule meetings via **Slack polls**, confirm with **Google Calendar**.
 - 🧑‍💼 Roles:
   - **Coordinator**: Facilitates meeting.
@@ -45,6 +50,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 5. Decision-Making & Conflict Resolution
+
 - 🤝 Seek **consensus** first.
 - 🗳 If needed, vote:
   - **Live**: Majority wins.
@@ -55,6 +61,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 6. Inclusivity & Positivity
+
 - 🧏 Pause discussions to include quieter voices.
 - 🎉 Celebrate wins via the **Compliments Jar**.
 - 🌍 Use translation tools when needed. Respect all perspectives.
@@ -62,6 +69,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 7. Milestone Commitment
+
 - 📌 Assign all tasks in **GitHub**, tied to clear deadlines.
 - 👥 Ensure **2+ members** attend key events, coordinate via Slack.
 - 📤 Submit deliverables with links to GitHub **README**.
@@ -72,11 +80,13 @@ Welcome to our project repository! This document outlines our team norms, values
 ## 🧠 Building and Maintaining Trust
 
 ### Cognitive Trust (Competence)
+
 - 📈 Share weekly updates on GitHub.
 - 🧪 Maintain quality via code reviews and defined roles.
 - 🗃 Document knowledge and follow best practices.
 
 ### Affective Trust (Character)
+
 - 💬 Communicate respectfully.
 - 👏 Recognize contributions.
 - 🤝 Hold biweekly check-ins for personal and emotional support.
@@ -84,6 +94,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 🔧 If Trust Is Damaged
+
 - 🎯 Address issues directly in a **Google Meet**.
 - ✍️ Agree on corrective actions in **Slack**.
 - 🔄 Reassign tasks fairly in **GitHub**.
@@ -103,6 +114,7 @@ Welcome to our project repository! This document outlines our team norms, values
 ---
 
 ## 🕒 Meeting Scheduling & Agendas
+
 - 🗳 Use Slack polls and confirm times via Google Calendar.
 - 📤 Share agendas 24 hours in advance.
 - 🔁 Rotate facilitator and note-taker roles weekly.
@@ -111,12 +123,14 @@ Welcome to our project repository! This document outlines our team norms, values
 
 ## 🙌 Respect: What It Looks Like
 
-### ✅ Feeling Respected:
+### ✅ Feeling Respected
+
 - Ideas acknowledged in meetings.
 - Slack messages responded to within 24 hours.
 - Use of “pause” signal to avoid interruptions.
 
-### ❌ Feeling Disrespected:
+### ❌ Feeling Disrespected
+
 - Ignored/dismissed ideas.
 - Unanswered messages.
 - Frequent interruptions or over-talking.
@@ -137,4 +151,6 @@ Welcome to our project repository! This document outlines our team norms, values
 
 ---
 
-> *Let’s build a team culture that’s inclusive, respectful, accountable, and productive. These norms help us create a safe space where everyone can thrive.* 🚀
+> Let’s build a team culture that’s inclusive, respectful, accountable,
+  and productive. These norms help us create a safe space where everyone can
+  thrive. 🚀
