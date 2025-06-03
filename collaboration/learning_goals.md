@@ -36,9 +36,12 @@
 - Improve Documentation: Focus on writing clear and comprehensive documentation
   for my code and projects.
 
-### Fevzi
+### Fevzi [Github](<https://github.com/fevziismailsahin>)
 
-(Add individual learning goals here)
+- I want to improve my Python and data analysis skills.
+- I want to develop my skills in data visualization.
+- I want to improve my communication and collaboration within the team.
+- I want to learn more about our research topic and be able to do a literature review.
 
 ### Huda
 
