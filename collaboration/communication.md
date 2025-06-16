@@ -54,12 +54,12 @@ screen-sharing demos, and resolving blockers.
 
 | Day       | Chrismy | Aziz | Fevzi | Malak | Sadam | Huda |
 |-----------|:-------:|:----:|:-----:|:-----:|:-----:|:----:|
-| Monday    | ✓       | ✓    |       | ✓     | ✓     | ✓    |
-| Tuesday   | ✓       | ✓    |       | ✓     | ✓     |      |
-| Wednesday | ✓       | ✓    |       | ✓     | ✓     |      |
-| Thursday  | ✓       | ✓    |       | ✓     | ✓     | ✓    |
+| Monday    | ✓       | ✓    | ✓     | ✓     | ✓     | ✓    |
+| Tuesday   | ✓       | ✓    | ✓     | ✓     | ✓     |      |
+| Wednesday | ✓       | ✓    | ✓     | ✓     | ✓     |      |
+| Thursday  | ✓       | ✓    | ✓     | ✓     | ✓     | ✓    |
 | Friday    | ✓       | ✓    |       | ✓     | ✓     | ✓    |
-| Saturday  | ✓       | ✓    |       | ✓     | ✓     |      |
+| Saturday  | ✓       | ✓    | ✓     | ✓     | ✓     |      |
 | Sunday    | ✓       | ✓    |       | ✓     | ✓     |      |
 
 ---
@@ -70,7 +70,8 @@ screen-sharing demos, and resolving blockers.
 - **Aziz Azizi**: 3 hours/day  
 - **Sadam Husen**: 2–3 hours/day  
 - **Huda**: 2 hours/day  
-- **Malak**: 1–2 hours/day  
+- **Malak**: 1–2 hours/day
+- **Fevzi**: 1–2 hours/day
 
 ---
 
