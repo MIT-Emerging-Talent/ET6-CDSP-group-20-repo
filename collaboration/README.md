@@ -1,10 +1,25 @@
 # 🤝 Team Collaboration Charter
 
+## 🤝 Collaboration Documents
+
+Our team’s collaboration practices, goals, and
+reflections are documented in the `/collaboration` folder.
+Explore each file below:
+
+- 📌 [Constraints](constraints.md)
+- 🧭 [Group Norms](group_norms.md)
+- 🎯 [Learning Goals](learning_goals.md)
+- 📢 [Communication](communication.md)
+- 🔁 [Retrospective](retrospective.md)
+
+These resources guide how we work together and improve as a team.
+
 Welcome to our project repository! This document outlines our
 team norms, values, and collaboration guidelines. Please review and follow these
 principles to ensure a respectful, productive,and enjoyable working environment.
 
 ---
+
 <!-- group norms summary -->
 
 ## 1. Trust & Accountability

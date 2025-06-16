@@ -1,4 +1,3 @@
-
 # Retrospective
 
 ## Stop Doing
@@ -11,7 +10,6 @@
 
 - Weekly check-ins and async updates via Slack worked well.
 - Rotating roles (facilitator, note-taker) helped balance responsibility.
-- Using Google Docs for collaborative drafting made writing smoother.
 
 ## Start Doing
 
