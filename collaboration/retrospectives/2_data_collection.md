@@ -131,9 +131,9 @@ during the next milestone.
 
 ### Contribution (Chrismy)
 
-- **Scraped** Reddit comments for Wysa, Replika, and Calm using `
+- **Scraped** Reddit comments for Wysa, Replika, and Calm using
 reddit_research.py`, capturing up to 100 hot posts per subreddit plus broader
-keyword searches; saved results in `reddit_posts.csv`.
+keyword searches; saved results in a csv document.
 - **Integrated** community upvotes as `comment_score` and **automatically
 labeled** the top 20% as “helpful” and bottom 20% as “unhelpful” in `reddit_posts_labeled.csv`.
 - **Cleaned & normalized** the text (deduplication, ASCII-filter, timestamp
