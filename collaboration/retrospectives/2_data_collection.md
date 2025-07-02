@@ -127,6 +127,41 @@ during the next milestone.
 
 ---
 
+## **Chrismy**
+
+### Contribution (Chrismy)
+
+- **Scraped** Reddit comments for Wysa, Replika, and Calm using
+reddit_research.py`, capturing up to 100 hot posts per subreddit plus broader
+keyword searches; saved results in a csv document.
+- **Integrated** community upvotes as `comment_score` and **automatically
+labeled** the top 20% as “helpful” and bottom 20% as “unhelpful” in `reddit_posts_labeled.csv`.
+- **Cleaned & normalized** the text (deduplication, ASCII-filter, timestamp
+conversion, URL/punctuation stripping).
+- **Merged** the helpfulness labels back into the clean data
+- **Ran** initial sentiment scoring (VADER) and high-risk phrase detection in
+summarizing average sentiment and risk rates by label.
+
+#### What I Learned (Chrismy)
+
+- **Mastered** the PRAW library and YAML-based credential management for Reddit
+API access.
+- **Enhanced** my debugging skills by resolving KeyErrors, permission issues,
+and data‐type mismatches in pandas.  
+- **Gained** experience writing modular, reusable Python scripts for end-to-end
+data pipelines.
+
+#### What I’m Focusing on Next (Chrismy)
+
+- **Deepening** the analysis with per-app breakdowns, statistical significance
+tests and clear vizualisation.
+- **Prototyping** a simple classifier to predict “helpful” vs. “unhelpful”
+comments using sentiment, risk flags, and text features.  
+- **Documenting** the full workflow and preparing a summary of insights for our
+next team review.
+
+---
+
 ## **Fevzi**
 
 ### Contribution (Fevzi)
