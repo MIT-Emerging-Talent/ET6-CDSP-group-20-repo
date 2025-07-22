@@ -62,6 +62,33 @@ unique and significant failure modes related to AI performance, memory, and pers
   driving negative sentiment ("pain words").  
   * Visualizes findings with interactive bar charts using Plotly.  
 
+### Conversational\_apps\_dataset.ipynb - Summary of NLP Analysis with LDA and Sentiment
+
+* **Input Dataset**
+
+The analysis utilized a dataset named `conversational_apps_dataset.csv`,
+containing user reviews of conversational applications, specifically those
+designed for mental health support. The primary data point for analysis was
+the `review_text` column, which contained the raw textual feedback provided by users.
+
+* **Exploration Summary**
+
+Prior to conducting the topic modeling and sentiment analysis, the following
+steps were performed as part of the data exploration and preparation phase:
+
+1. **Text Preprocessing**
+2. **Handling of Empty Reviews**
+3. **Text Vectorization**
+4. **LDA Model Application**
+5. **Topic Labeling**
+
+* **Key Exploratory Findings**
+
+In summary, the analysis highlights that while mental health chatbots are
+successful in providing positive experiences for a notable user base, significant
+challenges remain in areas concerning the naturalness and appropriateness of
+conversational responses, as well as technical and billing-related issues.
+
 ## Additional Files
 
 * `baseline_app_themed_and_scored.csv` — Baseline mental health app reviews with
