@@ -1,4 +1,5 @@
 # Data Exploration
+
 ___
 
 ## Notebooks Overview
@@ -45,8 +46,30 @@ and baseline app analyses and creates a series of powerful, direct-comparison vi
 a fundamentally different "complaint fingerprint" than traditional apps, with
 unique and significant failure modes related to AI performance, memory, and personality.
 
+🔹 **Aziz Azizi**
+
+* **emotional_fingerprint.ipynb**  
+
+  Description: Exploring and comparing negative review "pain words" across major
+  complaint themes in both Conversational and Baseline mental health app datasets
+  using TF-IDF. Includes visualizations highlighting the emotional fingerprints
+  of user frustrations.
+
+  Methodology:  
+  * Uses sentiment analysis (VADER) to identify the most negative reviews per
+  theme.  
+  * Applies TF-IDF vectorization to extract the top weighted words and phrases
+  driving negative sentiment ("pain words").  
+  * Visualizes findings with interactive bar charts using Plotly.  
+
+## Additional Files
+
+* `baseline_app_themed_and_scored.csv` — Baseline mental health app reviews with
+theme and sentiment scores.
+* `conversational_apps_themed_and_scored.csv` — Conversational mental health app
+reviews with theme and sentiment scores.
+
 ### Supporting Explorations
 
 * **`App_Specific_Breakdown_Ayham.ipynb`** *(To be added)*
 * **`LDA_Validation_Huda.ipynb`** *(To be added)*
-* **`Emotional_Fingerprint_Zizi.ipynb`** *(To be added)*
