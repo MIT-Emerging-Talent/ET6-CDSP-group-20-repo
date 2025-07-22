@@ -1,10 +1,5 @@
 # Data Exploration
-
 ___
-
-## Notebooks
-
-
 
 ## Notebooks Overview
 
