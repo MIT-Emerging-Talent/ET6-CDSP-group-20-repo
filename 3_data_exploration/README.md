@@ -60,7 +60,32 @@ unique and significant failure modes related to AI performance, memory, and pers
   theme.  
   * Applies TF-IDF vectorization to extract the top weighted words and phrases
   driving negative sentiment ("pain words").  
-  * Visualizes findings with interactive bar charts using Plotly.  
+  * Visualizes findings with interactive bar charts using Plotly.
+  
+🔹 **Ayham**
+
+* **`app-based-comparative-analysis4.ipynb`**  
+
+  Description: This notebook performs an app-specific comparative analysis of
+   the four conversational AI apps to assess their failure modes
+    and answer these questions :
+
+   "Are the apps failing in the same way"
+
+   "How intese the complaints are"
+
+   "Are the apps failing at the same rate" (Time series analysis)
+
+  Methodology:
+  * Loads individual CSV files of user reviews per app.
+  * Combines datasets and cleans textual data.
+  * Uses **VADER** sentiment analysis to isolate negative (complaint) reviews.
+  * Applies **BERTopic** for topic modeling on complaints.
+  * Maps granular topics to five core failure themes.
+  * Generates:
+    * A stacked bar chart comparing failure themes across apps.
+    * A box plot visualizing complaint intensity per app.
+    * A time series line chart tracking normalized failure rates over time.
 
 ## Additional Files
 
@@ -71,5 +96,4 @@ reviews with theme and sentiment scores.
 
 ### Supporting Explorations
 
-* **`App_Specific_Breakdown_Ayham.ipynb`** *(To be added)*
 * **`LDA_Validation_Huda.ipynb`** *(To be added)*
