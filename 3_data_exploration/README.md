@@ -60,9 +60,9 @@ unique and significant failure modes related to AI performance, memory, and pers
   theme.  
   * Applies TF-IDF vectorization to extract the top weighted words and phrases
   driving negative sentiment ("pain words").  
-  * Visualizes findings with interactive bar charts using Plotly.  
-
-  **Ayham**
+  * Visualizes findings with interactive bar charts using Plotly.
+  
+🔹 **Ayham**
 
 * **`app-based-comparative-analysis4.ipynb`**  
 
