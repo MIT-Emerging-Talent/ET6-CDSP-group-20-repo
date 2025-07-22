@@ -1,8 +1,5 @@
 # Data Exploration
-
-This folder contains the primary notebooks used to explore, understand, and
-visualize our prepared datasets. These deep dives provide the foundational analysis
-for the final project synthesis.
+___
 
 ## Notebooks Overview
 
