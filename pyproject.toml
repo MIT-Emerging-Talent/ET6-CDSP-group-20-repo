@@ -1,2 +1,0 @@
-[tool.ruff]
-exclude = ["3_data_exploration/conversational_apps_dataset.ipynb", "3_data_exploration/emotional_fingerprint.ipynb"]
