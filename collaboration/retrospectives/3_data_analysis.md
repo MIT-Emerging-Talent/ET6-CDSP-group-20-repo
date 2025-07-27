@@ -115,3 +115,11 @@ of asynchronous work while celebrating the final integrated outcome.)*
     myself scrambling to finalize plots and clean up notebooks late in the
     process, which could have been avoided with better upfront planning and more
     frequent check-ins.
+
+* **Going Forward**
+
+  * I’ll aim for simplicity and clarity in both analysis and visuals.
+
+  * I’ll advocate for clearer task alignment early in the process.
+
+  * I’ll be more mindful of creating a technically inclusive workflow.
