@@ -80,3 +80,38 @@ of asynchronous work while celebrating the final integrated outcome.)*
   the technical details, and I'll need their feedback to ensure the narrative
   I've constructed resonates with a general audience and that we all present it
   as a cohesive unit.
+
+### Individual Retrospective Aziz Azizi
+
+* **What Went Well (My Wins)**
+
+  * Team Engagement:
+
+    It was motivating to see different members contributing distinct pieces to
+    the analytical puzzle. While we worked asynchronously, I appreciated how
+    ideas from others often sparked new directions in my own work. For example,
+    building on the BERTopic pipeline and layering VADER sentiment analysis
+    allowed me to uncover nuanced emotional themes in reviews that might have
+    otherwise gone unnoticed. I hope that the final presentation will capture
+    the richness of these shared efforts.
+
+  * Tool Mastery & Technical Confidence:
+    On a personal level, this was the phase where I truly developed comfort
+    with complex tools like BERTopic, VADER, and TF-IDF visualizations.
+    Troubleshooting issues like MIME rendering, kernel mismatches, and formatting
+    errors in Jupyter helped me better understand the mechanics behind data
+    science environments. It felt good to go from struggling with basic errors
+    to being able to debug, configure, and successfully visualize emotional
+    patterns in the app reviews.
+
+* **What Could’ve Gone Better**
+  * Complexity Over Clarity:
+    At times, we leaned toward overly advanced techniques when simpler ones
+    would’ve been more effective and inclusive for all team members.
+
+  * Unclear Task Distribution:
+    We didn’t define individual responsibilities clearly early on, which led to
+    duplicated efforts in some places and last-minute crunch in others. I found
+    myself scrambling to finalize plots and clean up notebooks late in the
+    process, which could have been avoided with better upfront planning and more
+    frequent check-ins.
