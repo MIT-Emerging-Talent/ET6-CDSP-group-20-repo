@@ -123,3 +123,28 @@ of asynchronous work while celebrating the final integrated outcome.)*
   * I’ll advocate for clearer task alignment early in the process.
 
   * I’ll be more mindful of creating a technically inclusive workflow.
+
+### Individual Retrospective: Huda
+
+**What did I do?**  
+I found it hard to fully understand the advanced techniques and code used in
+this milestone. I was more prepared for a different type of analysis. Still,
+I tried to stay involved by following the discussions, checking results, and
+using AI tools to help me understand. I also helped with some early data
+cleaning, exploration, and review.
+
+**What did I learn?**  
+I learned that even simple analysis can give useful insights early on. I also
+saw how important it is to understand the methods we’re using so I can follow
+the work and support the team better.
+
+**What could have gone better?**  
+We didn’t divide tasks clearly from the start, which made us late. There was
+also a drop in communication during this phase, and I think many of us were
+dealing with personal challenges, which affected our progress.
+
+**What will I do next time?**  
+
+* Stay involved even when it gets technical  
+* Ask for help sooner  
+* Support better communication and task planning early on
