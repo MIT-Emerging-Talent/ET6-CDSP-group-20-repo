@@ -67,8 +67,7 @@ new categories of failure.
 This chart proves that conversational apps are not just judged as tools, but as
 partners, and they are heavily penalized when they fail in that role.
 
-![The Complaint Fingerprint: Conversational AI vs. Baseline App](<img width="1671" height="522" alt="image" src="https://github.com/user-attachments/assets/84e106a0-1dc7-4589-a828-63aa5dc8c8ae" />
-)
+![The Complaint Fingerprint: Conversational AI vs. Baseline App](https://drive.google.com/uc?export=view&id=15fXNSNaOtpUaqtFdvQPyjZJ6R6wvfJ2D)
 
 ### Key Finding 2: A Bad Conversation is More Painful Than a Bad Price
 
@@ -81,8 +80,7 @@ issues are categorized as "Critical Issues"—they are both frequent and deeply
 frustrating to the user. This suggests that a broken or "dumb" AI causes more
 acute user pain than a high subscription fee.
 
-![Problem Priority Matrix for Conversational Apps](<img width="1919" height="680" alt="image" src="https://github.com/user-attachments/assets/455a5cc7-8fd6-4fec-ab26-6e862832ba8a" />
-)
+![Problem Priority Matrix for Conversational Apps](https://drive.google.com/file/d/1mywSjbWWMD7EwrEfIpmqNRWTubE7X9Z9)
 
 ### Key Finding 3: The "Smoking Gun" - Real-World Events Drive User Backlash
 
@@ -98,7 +96,7 @@ corporate product decision to a massive, multi-faceted erosion of user trust and
 satisfaction, a phenomenon not observed in the stable trend lines of our baseline
 app.
 
-![Evolution of User Complaints Over Time](<img width="1671" height="519" alt="image" src="https://github.com/user-attachments/assets/a8c4ee00-82a5-4f03-b523-0ed0807f348c" />
+![Evolution of User Complaints Over Time]((https://drive.google.com/file/d/1mv3KFTeCk6-0gNL4SCBkR0HdBT6xoi9p)
 )
 
 ### Overall Conclusion
