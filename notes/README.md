@@ -18,11 +18,7 @@ and related fields. Resources are organized by topic and type.
 - [Prompt Engineering & Task Instructions](https://docs.google.com/document/d/1Xauzosj5Bq9UQ6VXcXAEz8NPADwWLCb8PvNdQ20mvkU/edit#heading=h.3fmggggs2xfx)
 - [Instruction Dataset Design](https://docs.google.com/document/d/1e5VFuH0sluCYMyMwqTw7ZlOksgYF3MNH45-FcjbI6x0/edit#heading=h.2dbnhbtl6u87)
 
-### 3. Tools & Environment Setup
-
-- [Tooling Setup + HuggingFace Login Guide](https://docs.google.com/document/d/1lnfqJli-i89OOAIkOkpeQF4MFx6z7KaeviBOrrEL61A/edit#heading=h.upnl1crms3sd)
-
-### 4. Notes & Community Resources
+### 3. Notes & Community Resources
 
 - [General Notes + Learning Summaries](https://docs.google.com/document/d/1Ozqp_CeALlOGsjBFOOEqp_Qq3mcHGa6jp346OnR6G6A/edit#heading=h.vzcjoqvebevu)
 
@@ -37,6 +33,7 @@ and related fields. Resources are organized by topic and type.
 ### 2. YouTube Playlists
 
 - [Python for Machine Learning - Sentdex](https://www.youtube.com/watch?v=NRgfgtzIhBQ&list=PLQVvvaa0QuDcg7v9OIyT-DWXX4WOjmJ9I&index=2)
+- [Machine Learning & AI Fundamentals – Codebasics](https://www.youtube.com/watch?v=uZxQz87lb84&list=LL&index=4)
 
 ---
 
