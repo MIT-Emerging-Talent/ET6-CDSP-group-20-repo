@@ -1,145 +1,74 @@
-# Problem Statement – Chatbot vs Human vs Hybrid Support in Mental Health Apps
-
-Digital mental health platforms are increasingly stepping in to address a global
-care gap, with 1 in 8 people worldwide living with a mental health condition and
-many unable to access traditional support due to cost, stigma, or workforce
-shortages. In many low-resource or culturally conservative contexts, these apps
-often serve as the first—and sometimes only—source of emotional support.
-
-Today, three core models dominate the landscape:
-
-- 🤖 **Chatbot-based support**, where AI conversational agents provide automated
-always-on responses.
-- 🧑‍⚕️ **Human-based support**, including therapists, peer supporters, or
-coaches offering live interaction.
-- 🔁 **Hybrid models**, combining chat-bots with human elements (e.g., escalation
-to a person after initial chatbot screening).
-
-Each approach brings distinct strengths and limitations. Chat-bots are accessible
-, anonymous, and available 24/7, but often struggle to offer the emotional depth
-users need. Human-led support is more empathetic and nuanced but limited by
-affordability, scheduling, and regional availability. Hybrid models aim to blend
-the best of both—but they may also cause confusion, friction, or inconsistency
-in the user journey. Crucially, the **effectiveness of each model varies**
-depending on uniformly experience, communication norms, and emotional needs.
+# Problem Statement: The Emotional Gap in Mental Health Chatbots
 
 ---
 
-## What Is Being Studied?
+## Why It’s Urgent
 
-  This project investigates the quality of emotional support delivered through
-  chatbot, human, and hybrid support systems in publicly available mental
-  health apps.
+As mental health awareness grows globally, millions are turning to digital tools
+for support—especially in underserved regions where therapy is expensive, stigmatized,
+or simply unavailable. Mental health chatbots offer instant, private, and scalable
+solutions, often promoted as accessible companions for people in distress.
 
-- 🔹 Key questions include:
+But despite their promise, many users report being emotionally let down. In app store
+reviews and online forums, users describe moments where the chatbot’s response
+felt off—cold, shallow, or completely disconnected from what they were feeling.
+This disconnect becomes especially critical during moments of vulnerability: panic
+attacks, disclosures of trauma, loneliness, or thoughts of self-harm.
 
-  - How effectively do free mental health chat-bots (e.g., Wysa, Replika) respond
-    to high-risk, pre-scripted user inputs (e.g., self-harm, suicidal ideation,
-    abuse disclosures), when evaluated against mental health professional
-    guidelines?
-
-  - How do these support types compare in terms of perceived empathy, trust, and
-    user satisfaction?
-
-  - What ethical and technical considerations arise when evaluating chat-bots
-    with simulated high-risk messages, and how can they be addressed during
-    testing and reporting?
-
-  While many apps aim to be global in scope, users do not experience them uniformly:
-
-  - In **Eastern and Middle Eastern cultures**, users often seek anonymity and
-  non-judgmental spaces due to deep-rooted mental health stigma—but scripted
-  chatbot replies can feel hollow or insensitive.
-  - In **Western contexts**, users may expect emotional mirroring, clarity, and
-  agency—areas where chat-bots frequently fall short.
-  - **Cultural mismatches**—from tone and phrasing to references and gender
-  dynamics—can lead to disconnection, frustration, or abandonment of the tool.
-
-  These aren’t isolated experiences. They appear repeatedly in app store reviews,
-  user feedback, and pilot studies. Yet, research remains limited—often focused on
-  chatbot technical performance or traditional therapy effectiveness.
-  **Comparative, culturally grounded evaluations of chatbot, human, and hybrid**
-  **support models are rare.**
-
-  By analyzing how well these tools deliver support across diverse scenarios and
-  communication needs, we aim to identify what truly helps—and what may
-  unintentionally harm—users during moments of emotional vulnerability.
-
-## 👥 Who Is Studying It?
-
-  We are a multidisciplinary, international team from Asia, the Middle East,
-  and the Caribbean, with backgrounds in technology, healthcare, psychology,
-  and data science. Our combined perspectives—academic and personal—help us
-  examine this space with both rigor and empathy.
-
-## Why Are We Studying It?
-
-  Mental health apps are rapidly scaling, especially among younger populations,
-  and are often the only accessible support system for many people. But
-  availability alone is not enough—tools must also deliver genuine
-  emotional support, especially in critical moments.
-
-  Despite the growth in chatbot adoption, research is still limited:
-
-- Are these tools helping or harming users in distress?
-
-- Can hybrid systems meaningfully combine the benefits of both humans and AI?
-
-- What defines "effective support" in digital spaces?
-
-  Our study aims to address these gaps by offering comparative insights.
-
-To explore this, we will:
-
-- Compare how users perceive empathy, trust, and satisfaction across the three
-  support models
-- Investigate how cultural values, communication norms, and emotional
-  expectations shape user experiences
-- Conduct simulated high-risk conversations with chat-bots
-- Compare support characteristics across chatbot, human, and hybrid systems
-- Analyze app store reviews, simulated conversations, and cross-regional survey results
-- Apply NLP, sentiment analysis, and thematic clustering to uncover patterns
-  and trends
-
-## ❗ Why It’s Urgent
-
-  As digital mental health tools rapidly become mainstream—especially among
-  younger users and those without access to traditional care—there’s a
-  growing risk that incomplete, untested, or emotionally inadequate systems
-  will be adopted at scale.
-
-- Mental health apps are often marketed as safe, scalable alternatives to human
-  care, but:
-
-  - Many chatbot responses remain unregulated, unevaluated, and
-      unpredictable—particularly in high-risk situations involving suicidal
-      ideation or trauma disclosures.
-
-  - Hybrid systems can create false assurance if users assume human
-      involvement where none exists, or if escalation mechanisms are unclear
-      or delayed.
-
-  - Key response quality indicators—like empathy, clarity, and
-      helpfulness—are often not measured, even though they matter most in
-      moments of crisis.
-  
-- Failing to rigorously evaluate these platforms could lead to:
-
-  - Emotional harm (e.g., users feeling dismissed, misunderstood, or invalidated)
-
-  - Ethical and legal risks (e.g., inappropriate handling of self-harm disclosures)
-
-  - Misinformed policies and product decisions based on scale, not safety
-
-  With AI becoming deeply embedded in care tools, now is the time to ask:
-  Are these systems truly supporting people in need—or simply managing
-  conversations at scale?
-
-  Our project aims to provide urgent, actionable insights into what actually
-  works—and what might unintentionally put vulnerable users at further risk.
+These failures don’t just damage user experience. They can **erode trust**,
+discourage people from seeking help again, or even exacerbate emotional distress.
+As these tools become more widespread, the emotional quality of their interactions
+becomes not just a design concern—but a mental health concern.
 
 ---
 
-> This project is not about finding a universal “best” model—  
-> but rather understanding **which model works best, for whom, in what context,**
-**and at what cost.**
+## What Is Being Studied
+
+Most evaluations of mental health chatbots still focus on **technical performance**:
+how fast they respond, how many errors occur, how well they complete a task. Much
+less is known about their **emotional performance**—how supported, validated,
+or understood users feel during real-world interactions.
+
+There are few systematic efforts to answer questions like:
+
+- When do users feel emotionally unsupported?
+- What kinds of situations most often lead to these breakdowns?
+- Are the failures due to language, culture, design limitations—or something else?
+- What deeper expectations do users bring into these conversations?
+
+By ignoring these emotional failures, we miss critical signals about how people
+actually experience AI companions—not just as tools, but as sources of comfort,
+validation, and care.
+
+---
+
+## Why We Are Studying It
+
+We believe that to responsibly scale mental health technologies, we must move beyond
+surface-level metrics and ask:  
+**Do these systems truly understand and respond to human emotional needs—or do**
+**they just simulate support?**
+
+Understanding these moments of failure is not just about improving chatbot UX.
+It’s about protecting the mental well-being of vulnerable users and ensuring that
+digital tools don’t unintentionally cause harm under the guise of help.
+
+Exploring this space can also inform:
+
+- Safer AI deployment in sensitive domains  
+- Better training data and emotional modeling  
+- Culturally aware and linguistically inclusive design  
+- The ethical boundaries of automating emotional labor  
+
+---
+
+## Who Is Studying It
+
+We are a multidisciplinary, international team from **Asia, Africa,
+and the Caribbean**, with backgrounds in **technology, healthcare, psychology,
+and data science**.
+
+Our combined perspectives—**both academic and personal**—enable us to examine
+this space with rigor, empathy, and sensitivity to cultural and emotional nuance.
+We are not just asking *how* these tools work, but *how they feel to real people*,
+and *what those feelings reveal* about the limits of algorithmic care.
