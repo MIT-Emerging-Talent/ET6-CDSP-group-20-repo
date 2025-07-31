@@ -18,6 +18,7 @@ ___
 [Chrismy Augustin](https://github.com/likechrisss),
 [F. Ismail SAHIN](https://github.com/fevziismailsahin),
 [Aziz Azizi](https://github.com/Azizsin7)
+[Ayham Hasan.](https://github.com/ayhm01)
 
 ___
 
@@ -150,7 +151,7 @@ ___
 | 0         | Team Setup & Collaboration    | ✅ Complete   | June 2      |
 | 1         | Define Research Question      | ✅ Complete    | June 16     |
 | 2         | Data Collection               | ✅ Complete    | June 30     |
-| 3         | Analysis & Modeling           | ⏳ Upcoming   | July 21     |
+| 3         | Analysis & Modeling           | ✅ Complete    | July 21     |
 | 4         | Communication Strategy        | ⏳ Upcoming   | August 11   |
 | 5         | Final Presentation            | ⏳ Upcoming   | August 25   |
 
