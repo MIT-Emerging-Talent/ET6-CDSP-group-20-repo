@@ -80,7 +80,7 @@ issues are categorized as "Critical Issues"—they are both frequent and deeply
 frustrating to the user. This suggests that a broken or "dumb" AI causes more
 acute user pain than a high subscription fee.
 
-[![Problem Priority Matrix for Conversational Apps](https://drive.google.com/file/d/1mywSjbWWMD7EwrEfIpmqNRWTubE7X9Z9)](https://drive.google.com/file/d/1mywSjbWWMD7EwrEfIpmqNRWTubE7X9Z9/view?usp=sharing)
+[![Problem Priority Matrix for Conversational Apps](https://drive.google.com/uc?export=view&id=1mywSjbWWMD7EwrEfIpmqNRWTubE7X9Z9)](https://drive.google.com/file/d/1mywSjbWWMD7EwrEfIpmqNRWTubE7X9Z9/view?usp=sharing)
 
 ### Key Finding 3: The "Smoking Gun" - Real-World Events Drive User Backlash
 
@@ -96,7 +96,7 @@ corporate product decision to a massive, multi-faceted erosion of user trust and
 satisfaction, a phenomenon not observed in the stable trend lines of our baseline
 app.
 
-[![Evolution of User Complaints Over Time](https://drive.google.com/file/d/1mv3KFTeCk6-0gNL4SCBkR0HdBT6xoi9p)](https://drive.google.com/file/d/1mv3KFTeCk6-0gNL4SCBkR0HdBT6xoi9p/view?usp=sharing)
+[![Evolution of User Complaints Over Time](https://drive.google.com/uc?export=view&id=1mv3KFTeCk6-0gNL4SCBkR0HdBT6xoi9p)](https://drive.google.com/file/d/1mv3KFTeCk6-0gNL4SCBkR0HdBT6xoi9p/view?usp=sharing)
 
 ### Overall Conclusion
 
