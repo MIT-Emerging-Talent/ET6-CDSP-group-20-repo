@@ -52,15 +52,15 @@ screen-sharing demos, and resolving blockers.
 
 ### Team Members' Daily Availability for Calls/Messages
 
-| Day       | Chrismy | Aziz | Fevzi | Malak | Sadam | Huda |
-|-----------|:-------:|:----:|:-----:|:-----:|:-----:|:----:|
-| Monday    | ✓       | ✓    | ✓     | ✓     | ✓     | ✓    |
-| Tuesday   | ✓       | ✓    | ✓     | ✓     | ✓     |      |
-| Wednesday | ✓       | ✓    | ✓     | ✓     | ✓     |      |
-| Thursday  | ✓       | ✓    | ✓     | ✓     | ✓     | ✓    |
-| Friday    | ✓       | ✓    |       | ✓     | ✓     | ✓    |
-| Saturday  | ✓       | ✓    | ✓     | ✓     | ✓     |      |
-| Sunday    | ✓       | ✓    |       | ✓     | ✓     |      |
+| Day       | Chrismy | Aziz | Fevzi | Malak | Sadam | Huda | Ayham |
+|-----------|:-------:|:----:|:-----:|:-----:|:-----:|:----:|:-----:|
+| Monday    |    ✓    |  ✓   |   ✓   |   ✓   |   ✓   |  ✓   |   ✓   |
+| Tuesday   |    ✓    |  ✓   |   ✓   |   ✓   |   ✓   |      |   ✓   |
+| Wednesday |    ✓    |  ✓   |   ✓   |   ✓   |   ✓   |      |   ✓   |
+| Thursday  |    ✓    |  ✓   |   ✓   |   ✓   |   ✓   |  ✓   |   ✓   |
+| Friday    |    ✓    |  ✓   |       |   ✓   |   ✓   |  ✓   |   ✓   |
+| Saturday  |    ✓    |  ✓   |   ✓   |   ✓   |   ✓   |      |   ✓   |
+| Sunday    |    ✓    |  ✓   |       |   ✓   |   ✓   |      |       |
 
 ---
 
@@ -72,6 +72,7 @@ screen-sharing demos, and resolving blockers.
 - **Huda**: 2 hours/day  
 - **Malak**: 1–2 hours/day
 - **Fevzi**: 1–2 hours/day
+- **Ayham** : 5 hours/day
 
 ---
 
