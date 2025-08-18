@@ -27,6 +27,6 @@ This section contains the contacts of the research community, including
 ![Contact 15](images/Picture15.png)
 ![Contact 16](images/Picture16.png)
 
-This article contain 4 contacts, we can found them, here: [Article](https://www.mdpi.com/2076-0760/13/7/381?utm_source=chatgpt.com)
+ This article contain 4 contacts, we can found them, here: [Article](https://www.mdpi.com/2076-0760/13/7/381?utm_source=chatgpt.com)
 
 ![Contact 17](images/Picture17.png)
