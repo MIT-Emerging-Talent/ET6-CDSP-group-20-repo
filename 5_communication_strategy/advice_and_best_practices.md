@@ -3,23 +3,23 @@
 ## For users (people using mental-health chatbots or other digital tools)
 
 - **Treat chatbots as assistants, not therapists.** Use them for psychoeducation,
-  self-help tools, reminders, or signposting — not for diagnoses, medication  
-  changes, or severe symptoms (including suicidal thoughts). [1,2,7]
+self-help tools, reminders, or signposting — not for diagnoses, medication changes,
+or severe symptoms (including suicidal thoughts). [1,2,7]
 
 - **Confirm privacy — don’t overshare.** Before entering sensitive details check
-  how the app stores, protects, and especially uses your data (training,  
-  third-party sharing). If unclear, assume risk. [1,2,6]
+how the app stores, protects, and especially uses your data (training,
+third-party sharing). If unclear, assume risk. [1,2,6]
 
 - **Prefer tools with explicit crisis plans and human backup.** Use services that
-  clearly describe how they detect risk and connect you to real help (tested  
-  escalation/handover). [1,2,7]
+clearly describe how they detect risk and connect you to real help (tested  
+escalation/handover). [1,2,7]
 
 - **Stop & report if the bot is biased, offensive, or culturally off.** If it  
-  stereotypes, misunderstands, or gives inappropriate advice, discontinue use  
-  and report the behavior. [2,3,4]
+stereotypes, misunderstands, or gives inappropriate advice, discontinue use  
+and report the behavior. [2,3,4]
 
 - **Verify medical or medication suggestions with a clinician.** Do not act on  
-  diagnoses or medication advice without professional confirmation. [1,2,6]
+diagnoses or medication advice without professional confirmation. [1,2,6]
 
 ---
 
@@ -28,29 +28,29 @@
 (designing mental-health chatbots / DHIs)
 
 - **State scope and limits clearly at onboarding.** Disclose what the tool does,
-  who it is for, and what it is not (no vague therapeutic claims without  
-  trials). [1,2,6]
+who it is for, and what it is not (no vague therapeutic claims without  
+trials). [1,2,6]
 
 - **Make crisis detection + escalation mandatory.** Implement suicide/risk  
-  screening, automatic flagging, and reliable human handover pathways — and  
-  test failure modes. [1,2,7]
+screening, automatic flagging, and reliable human handover pathways — and  
+test failure modes. [1,2,7]
 
 - **Adopt privacy-by-design and give users control.** Minimize PII, allow  
-  deletion/export, and require explicit consent for training or third-party  
-  sharing. [1,2,6]
+deletion/export, and require explicit consent for training or third-party sharing.
+[1,2,6]
 
 - **Continuously audit and mitigate bias.** Test performance across language,  
-  age, gender, and socioeconomic groups; publish audits and mitigation steps. [1,2,3]
+age, gender, and socioeconomic groups; publish audits and mitigation steps. [1,2,3]
 
 - **Co-design with lived-experience communities.** Run compensated PPI/co-design
-  with diverse users — especially marginalized groups — and document outcomes. [1,4]
+with diverse users — especially marginalized groups — and document outcomes. [1,4]
 
 - **Be conservative with claims; require clinical validation.** Do not market as
-  “therapy” or claim effectiveness until demonstrated in peer-reviewed trials. [1,2,6]
+“therapy” or claim effectiveness until demonstrated in peer-reviewed trials. [1,2,6]
 
 - **Set governance, liability, and accreditation plans.** Establish ethics  
-  boards, incident reporting, and prepare for accreditation and liability  
-  frameworks (TEQUILA: Liability, Accreditation). [1,5,6]
+boards, incident reporting, and prepare for accreditation and liability  
+frameworks (TEQUILA: Liability, Accreditation). [1,5,6]
 
 ---
 
