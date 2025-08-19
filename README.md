@@ -30,7 +30,7 @@ ___
 Mental Health Chatbots
 * **Domain:** Digital Mental Health & Emotional Support Technologies
 * **Timeline:** May to August 2025
-* **Current Status:** 🛠️ In Progress (Milestone 1)
+* **Current Status:** 🛠️ In Progress (Milestone 5)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 | 1         | Define Research Question      | ✅ Complete    | June 16     |
 | 2         | Data Collection               | ✅ Complete    | June 30     |
 | 3         | Analysis & Modeling           | ✅ Complete    | July 21     |
-| 4         | Communication Strategy        | ⏳ Upcoming   | August 11   |
+| 4         | Communication Strategy        | ✅ Complete    | August 11   |
 | 5         | Final Presentation            | ⏳ Upcoming   | August 25   |
 
 ___
