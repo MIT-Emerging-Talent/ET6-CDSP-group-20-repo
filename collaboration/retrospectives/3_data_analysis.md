@@ -1,4 +1,4 @@
-# Milestone 3: Data Analysis (Due [Date])
+# Milestone 3: Data Analysis
 
 This milestone was the analytical core of our project. We transformed our clean
 datasets into a compelling, evidence-based narrative through a multi-layered NLP
