@@ -11,7 +11,7 @@ who our target audiences are, how we can reach them, and a concrete action plan.
 
 ## The Core Artifact: Our Medium Article
 
-(link should be added here later)  
+[Click to view the medium article](<https://medium.com/@ayhamhasan20/the-conversational-ai-tax-the-hidden-price-tag-on-mental-wellness-apps-42468f751aab>)  
 
 Our primary communication artifact will be our Medium article. This format is
 perfect for our target audiences because it is:  
