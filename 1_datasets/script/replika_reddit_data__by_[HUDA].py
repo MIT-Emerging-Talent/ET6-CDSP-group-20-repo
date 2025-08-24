@@ -1,14 +1,14 @@
-import praw
-import pandas as pd
-import time
 import hashlib
-import prawcore
-from datetime import datetime
 import os
+import time
+from datetime import datetime
+
+import pandas as pd
+import praw
+import prawcore
 from langdetect import detect
 
 # === Your Reddit API credentials ===
-
 reddit = praw.Reddit(
     client_id="wG0FLf94gXnCc4ssiA9DpQ",
     client_secret="9mo6X-sfFW4T81DlbMWCR0kRutMhag",
@@ -16,7 +16,6 @@ reddit = praw.Reddit(
     username="Equal_Negotiation417",
     password="i]dg1ifm2",
 )
-
 
 # === Search Keywords ===
 search_keywords = [
@@ -43,7 +42,20 @@ posts_per_keyword = 300
 batch_size = 500
 min_timestamp = int(datetime(2020, 1, 1).timestamp())
 
-os.makedirs("output", exist_ok=True)
+# --- Detect repo root ---
+cwd = os.getcwd()
+while not os.path.exists(os.path.join(cwd, "1_datasets")):
+    parent = os.path.dirname(cwd)
+    if parent == cwd:
+        raise FileNotFoundError("Could not find repo root containing '1_datasets'.")
+    cwd = parent
+REPO_ROOT = cwd
+
+# --- Define save folder ---
+SAVE_FOLDER = os.path.join(
+    REPO_ROOT, "1_datasets", "all_datasets", "raw_data", "reddit_output"
+)
+os.makedirs(SAVE_FOLDER, exist_ok=True)
 
 data = []
 batch_count = 1
@@ -52,15 +64,19 @@ seen_hashes = set()
 print("\U0001f50d Starting keyword-based scraping in r/Replika...\n")
 
 
+# --- Function to save batches ---
 def save_batch(data, batch_count):
     df = pd.DataFrame(data)
-    csv_filename = f"output/reddit_keyword_batch_{batch_count}.csv"
-    xlsx_filename = f"output/reddit_keyword_batch_{batch_count}.xlsx"
+    csv_filename = os.path.join(SAVE_FOLDER, f"reddit_keyword_batch_{batch_count}.csv")
+    xlsx_filename = os.path.join(
+        SAVE_FOLDER, f"reddit_keyword_batch_{batch_count}.xlsx"
+    )
     df.to_csv(csv_filename, index=False)
     df.to_excel(xlsx_filename, index=False)
     print(f"\U0001f4be Saved batch {batch_count} to {csv_filename} and {xlsx_filename}")
 
 
+# --- Main scraping loop ---
 for keyword in search_keywords:
     print(f"   🔍 Searching for '{keyword}' in r/{subreddit_name}...")
     subreddit = reddit.subreddit(subreddit_name)
@@ -72,6 +88,7 @@ for keyword in search_keywords:
             try:
                 if post.created_utc < min_timestamp:
                     continue
+
                 post_title = post.title
                 post_body = post.selftext
                 post_id = post.id
@@ -88,7 +105,7 @@ for keyword in search_keywords:
                 try:
                     if detect(post_body) != "en":
                         continue
-                except:  # noqa: E722
+                except:
                     continue
 
                 content_hash = hashlib.md5(
@@ -148,9 +165,10 @@ for keyword in search_keywords:
         print("\u23f3 Rate limit hit on subreddit search. Waiting 60 seconds...")
         time.sleep(60)
 
+# Save remaining data
 if data:
     save_batch(data, batch_count)
 
 print(
-    "\n\u2705 Keyword scraping complete. Check the 'output' folder for CSV and Excel files."
+    "\n\u2705 Keyword scraping complete. Check the 'reddit_output' folder for CSV and Excel files."
 )

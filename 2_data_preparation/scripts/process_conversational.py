@@ -1,15 +1,34 @@
-import pandas as pd
 import glob
 import os
 from datetime import datetime
-from langdetect import detect, LangDetectException
 import numpy as np
+import pandas as pd
+from langdetect import LangDetectException, detect
 
 print("--- Starting Focused Preprocessing for CONVERSATIONAL APPS (v_final) ---")
 
 # --- 1. Configuration ---
-RAW_DATA_PATH = "../0_datasets/raw"
-PROCESSED_DATA_PATH = "../data/"
+# --- Detect repo root ---
+cwd = os.getcwd()
+while not os.path.exists(os.path.join(cwd, "1_datasets")):
+    parent = os.path.dirname(cwd)
+    if parent == cwd:  # reached root of drive
+        raise FileNotFoundError("Could not find repo root containing '1_datasets'.")
+    cwd = parent
+
+REPO_ROOT = cwd
+print(f"Repo root detected at: {REPO_ROOT}")
+
+# --- Define paths ---
+RAW_DATA_PATH = os.path.join(REPO_ROOT, "1_datasets", "all_datasets", "raw_data")
+PROCESSED_DATA_PATH = os.path.join(REPO_ROOT, "1_datasets", "all_datasets")
+
+# --- Debug print ---
+print("RAW_DATA_PATH:", RAW_DATA_PATH)
+print("PROCESSED_DATA_PATH:", PROCESSED_DATA_PATH)
+
+# Make sure processed data dir exists
+os.makedirs(PROCESSED_DATA_PATH, exist_ok=True)
 CONVERSATIONAL_APPS_FILES = ["wysa", "replika", "woebot", "youper"]
 
 # --- 2. Load Conversational App Files ---

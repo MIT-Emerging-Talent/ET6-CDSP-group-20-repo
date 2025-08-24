@@ -1,14 +1,22 @@
 # scripts/scrape_apple_app_store.py
 
 import os
-
 import pandas as pd
 from app_store_scraper import AppStore
 
 print("--- Apple App Store Scraper ---")
 
+# --- Detect repo root ---
+cwd = os.getcwd()
+while not os.path.exists(os.path.join(cwd, "1_datasets")):
+    parent = os.path.dirname(cwd)
+    if parent == cwd:  # reached root of drive
+        raise FileNotFoundError("Could not find repo root containing '1_datasets'.")
+    cwd = parent
+REPO_ROOT = cwd
+print(f"Repo root detected at: {REPO_ROOT}")
+
 # --- Configuration ---
-# A dictionary mapping app names to their Apple App Store names (from the URL).
 APPS_TO_SCRAPE = {
     "Wysa": "wysa-ai-therapist-chat-bot",
     "Replika": "replika-my-ai-friend",
@@ -17,41 +25,32 @@ APPS_TO_SCRAPE = {
     "Calm": "calm",
 }
 
-# The list of major App Store countries to scrape from.
 COUNTRIES_TO_SCRAPE = ["us", "gb", "ca", "au", "in"]
-REVIEWS_LIMIT_PER_APP = (
-    5000  # Total reviews to try and get for one app across all countries.
-)
-OUTPUT_PATH = "../raw_data/"
+REVIEWS_LIMIT_PER_APP = 5000
 
-# Ensure the output directory exists
+OUTPUT_PATH = os.path.join(REPO_ROOT, "1_datasets", "all_datasets", "raw_data")
 os.makedirs(OUTPUT_PATH, exist_ok=True)
 
 # --- Scraping Loop ---
 for app_name, app_url_name in APPS_TO_SCRAPE.items():
     print(f"\nScraping: {app_name}")
-
     all_reviews_for_this_app = []
 
-    # Loop through each country code in our list
     for country in COUNTRIES_TO_SCRAPE:
         print(f"  -- Checking country: {country}...")
         try:
-            # Initialize the scraper for the current app and country
             app = AppStore(country=country, app_name=app_url_name)
-
-            # Scrape reviews. This might take a while.
             app.review(how_many=REVIEWS_LIMIT_PER_APP)
 
-            # Add the country code to each review dictionary for tracking
-            for review in app.reviews:
+            # Only keep reviews that actually exist
+            reviews_found = [r for r in app.reviews if r is not None]
+            for review in reviews_found:
                 review["country"] = country
 
-            all_reviews_for_this_app.extend(app.reviews)
-            print(f"  -- Found {len(app.reviews)} reviews in '{country}'.")
+            all_reviews_for_this_app.extend(reviews_found)
+            print(f"  -- Found {len(reviews_found)} reviews in '{country}'.")
 
         except Exception as e:
-            # This handles cases where the app isn't in a store or an error occurs
             print(
                 f"  -- Could not scrape '{country}' for {app_name}. Skipping. Error: {e}"
             )
@@ -65,7 +64,6 @@ for app_name, app_url_name in APPS_TO_SCRAPE.items():
 
     df = pd.DataFrame(all_reviews_for_this_app)
 
-    # Save the raw data with a clear filename
     output_file = os.path.join(
         OUTPUT_PATH, f"{app_name.lower()}_apple_app_store_raw.csv"
     )

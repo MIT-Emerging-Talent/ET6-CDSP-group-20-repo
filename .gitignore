@@ -1,8 +1,23 @@
-__pycache__
-*.pytest_cache
-venv/
-0_datasets/
-# .env
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+mentalhealth/
+
+# Datasets
+1_datasets/all_datasets/
+
+# Environment variables
+.env
+
+# Databases
 *.db
+
+# IDE / Editor
 *.idea
+.vscode/
+
+# Linter / cache
 *.ruff_cache
+*.pytest_cache

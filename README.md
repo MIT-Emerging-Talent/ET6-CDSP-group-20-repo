@@ -168,6 +168,74 @@ ___
   
 ___
 
+### Replication
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-20-repo.git
+
+cd ET6-CDSP-group-20-repo
+```
+
+#### 2. Create Python Environment
+
+```bash
+python -m venv mentalhealth
+```
+
+* Activate environment Using pip
+
+ Windows (PowerShell)
+
+```bash
+.\mentalhealth\Scripts\activate
+```
+
+macOS/Linux
+
+```bash
+source mentalhealth/bin/activate
+```
+
+* Using conda
+
+```bash
+conda env create -f environment.yml
+conda activate mentalhealth
+```
+
+#### 3. Install the requirements
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+**All enriched datasets are saved in:**
+
+[`1_datasets/all_datasets/`](1_datasets/all_datasets/)
+
+Examples:
+
+* conversational_apps_themed_and_scored.csv
+
+* baseline_app_themed_and_scored.csv
+
+These files include:
+
+* review_text
+
+* app_name
+
+* theme
+
+* Sentiment scores
+
+* Additional metadata
+
+___
+
 ### ➕ **Contributing**
 
   We’re excited to collaborate! To get involved, please check out our

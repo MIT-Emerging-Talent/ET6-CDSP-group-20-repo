@@ -7,9 +7,17 @@ from google_play_scraper import Sort, reviews
 
 print("--- Google Play Scraper ---")
 
+# --- Detect repo root ---
+cwd = os.getcwd()
+while not os.path.exists(os.path.join(cwd, "1_datasets")):
+    parent = os.path.dirname(cwd)
+    if parent == cwd:  # reached root of drive
+        raise FileNotFoundError("Could not find repo root containing '1_datasets'.")
+    cwd = parent
+REPO_ROOT = cwd
+print(f"Repo root detected at: {REPO_ROOT}")
+
 # --- Configuration ---
-# A dictionary mapping app names to their Google Play IDs.
-# This makes it easy to add or remove apps in the future.
 APPS_TO_SCRAPE = {
     "Wysa": "bot.wysa.ai",
     "Replika": "ai.replika.app",
@@ -19,9 +27,9 @@ APPS_TO_SCRAPE = {
 }
 
 REVIEWS_TO_SCRAPE_PER_APP = 10000  # Adjust as needed
-OUTPUT_PATH = "../raw_data/"  # Save raw data to a dedicated folder
 
-# Ensure the output directory exists
+# Save raw data to 1_datasets/all_datasets/raw_data
+OUTPUT_PATH = os.path.join(REPO_ROOT, "1_datasets", "all_datasets", "raw_data")
 os.makedirs(OUTPUT_PATH, exist_ok=True)
 
 # --- Scraping Loop ---
