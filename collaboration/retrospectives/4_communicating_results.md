@@ -53,3 +53,29 @@ so everyone had a chance to contribute.
 - I could have enhanced the article further with refinements and improvements.  
 However, with the deadline approaching and the nature of this fast-paced  
 learning project, I prioritized publishing in a timely manner.  
+
+### Aziz Azizi
+
+I feel confident in how we communicated the results of this milestone. The
+findings were not only supported by analysis but also presented in a way that
+was clear and relevant to the intended audience. For me, this was the first
+time I focused less on just “getting results” and more on ensuring that others
+could understand and use them.
+
+- What Went Well:
+
+  - I improved in simplifying technical results into practical messages.
+
+  - I collaborated with the team to ensure our Medium
+    article/readme/documentation was cohesive and clear.
+
+- Areas for Improvement
+
+  - I could improve in tailoring communication to different audiences (e.g.,
+  technical peers vs. general readers).
+
+  - I sometimes focused too much on details and had to remind myself to
+    prioritize clarity over completeness.
+
+  - I need to practice giving and receiving feedback on drafts more actively,
+    as this strengthens the final communication.
