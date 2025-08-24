@@ -105,7 +105,7 @@ for keyword in search_keywords:
                 try:
                     if detect(post_body) != "en":
                         continue
-                except:
+                except Exception:
                     continue
 
                 content_hash = hashlib.md5(
