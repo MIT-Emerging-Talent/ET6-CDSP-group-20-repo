@@ -6,7 +6,7 @@ ___
 
 ### 1. `Conversational_Analysis.ipynb`
 
-* **Input Dataset:** `conversational_apps_processed.csv`
+* **Input Dataset:** `conversational_apps_dataset.csv`
 * **Exploration Summary:** This notebook conducts a deep exploratory analysis of
 the user complaints for our set of conversational AI apps. The exploration includes:
   * **Theme Discovery:** Using the BERTopic model to identify the core themes of
@@ -24,7 +24,7 @@ complaints was identified around February 2023.
 
 ### 2. `Baseline_Analysis.ipynb`
 
-* **Input Dataset:** `baseline_app_processed.csv`
+* **Input Dataset:** `baseline_app_dataset.csv`
 * **Exploration Summary:** This notebook performs a parallel exploration on our
 baseline app (Calm)to establish a "control group" for comparison. It applies the
 exact same exploratory techniques as the conversational notebook:
