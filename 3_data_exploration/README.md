@@ -46,11 +46,14 @@ and baseline app analyses and creates a series of powerful, direct-comparison vi
 a fundamentally different "complaint fingerprint" than traditional apps, with
 unique and significant failure modes related to AI performance, memory, and personality.
 
-🔹 **Aziz Azizi**
+## **Aziz Azizi**
+
+* **input data set** `baseline_app_themed_and_scored.csv` and
+  `conversational_apps_themed_and_scored.csv`
 
 * **emotional_fingerprint.ipynb**  
 
-  Description: Exploring and comparing negative review "pain words" across major
+  Exploring and comparing negative review "pain words" across major
   complaint themes in both Conversational and Baseline mental health app datasets
   using TF-IDF. Includes visualizations highlighting the emotional fingerprints
   of user frustrations.
