@@ -108,10 +108,10 @@ documented in this spreadsheet, which guided our topic selection.
 
 Refined Question:
 
-    What are the most prevalent themes of user-reported conversational failure in
-    leading mental health chat-bots, and what do these themes reveal about the
-    gap between user expectations for emotional support and current algorithmic
-    capabilities?
+  >What are the most prevalent themes of user-reported conversational failure in
+  leading mental health chat-bots, and what do these themes reveal about the
+  gap between user expectations for emotional support and current algorithmic
+  capabilities?
 
 This ensures a focused, measurable analysis using public data while respecting privacy.
 
