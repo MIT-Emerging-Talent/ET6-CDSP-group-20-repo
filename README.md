@@ -169,7 +169,7 @@ ___
 
 ### Replication
 
-[Method](Method.md) holds the technical workflow → reproducible but not
+[method](method.md) holds the technical workflow → reproducible but not
 overwhelming for a non-technical reader.
 
 #### 1. Clone the Repository
