@@ -2,14 +2,14 @@
 
 Welcome to the analytical core of our project. This folder contains the scripts
 and notebooks that transform raw user feedback into a compelling, data-driven
-narrative about the unique challenges of mentalhealth chatbots. Our primary
+narrative about the unique challenges of mental-health chat-bots. Our primary
 deliverable is a master analysis notebook that synthesizes multiple advanced
 NLP techniques to tell a complete story.
 
 Our entire analytical journey is guided by a central research question:
 
 > *What are the most prevalent themes of user-reported conversational failure in
-leading mental health chatbots, and what do these themes reveal about the gap between
+leading mental health chat-bots, and what do these themes reveal about the gap between
 user expectations for emotional support and current algorithmic capabilities?*
 
 ---
@@ -20,7 +20,7 @@ To answer our question with the highest degree of confidence, we designed a
 sophisticated, multi-layered analytical workflow. This ensures our findings
 are not an artifact of a single technique but are robust, validated, and deeply contextualized.
 
-### 1. [`The_Conversational_AI_Tax_A_Comparative_Analysis.ipynb`](https://www.kaggle.com/code/sadamhali/the-conversational-ai-tax-a-comparative-analysis)
+### 1. [the-conversational-ai-tax-a-comparative-analysis](the-conversational-ai-tax-a-comparative-analysis.ipynb)
 
 This is the **master notebook** and the definitive source of truth for our findings.
  It weaves together all stages of the analysis into a single, reproducible narrative.
@@ -106,4 +106,4 @@ bring deep-seated, human expectations for memory, personality, and empathy to th
 digital relationships. Our analysis demonstrates that the gap between these innate
 expectations and the current reality of algorithmic capabilities is the primary,
 unique, and most emotionally charged driver of user dissatisfaction in the rapidly
-growing world of mental health chatbots.
+growing world of mental health chat-bots.
