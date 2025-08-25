@@ -91,7 +91,6 @@ could understand and use them.
 #### Improvements
 
 - I could have expanded and refined the audience list to be more comprehensive.
-- I could have taken on more tasks to contribute more broadly to this milestone.
 
 **Key Takeaway:**  
 I learned how to turn research into something practical and useful in real work.
