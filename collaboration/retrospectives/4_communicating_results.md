@@ -79,3 +79,19 @@ could understand and use them.
 
   - I need to practice giving and receiving feedback on drafts more actively,
     as this strengthens the final communication.
+
+### **Huda**
+
+#### What I did
+
+- I collected and organized the audience list.
+- I helped with an extra layer of research shaping advice and best practices.  
+- I learned to see communication as an essential part of the research process.  
+
+#### Improvements
+
+- I could have expanded and refined the audience list to be more comprehensive.
+- I could have taken on more tasks to contribute more broadly to this milestone.
+
+**Key Takeaway:**  
+I learned how to turn research into something practical and useful in real work.
