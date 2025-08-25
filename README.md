@@ -12,13 +12,15 @@ ___
 ## 👥 Meet the team on Github
 <!-- markdownlint-disable MD033 -->
 
-[Huda Alamassi](https://github.com/hudaalamassi),
-[Malak Battatt](https://github.com/malakbattat),
-[Sadam Husen Ali](https://github.com/Urz1),
-[Chrismy Augustin](https://github.com/likechrisss),
-[F. Ismail SAHIN](https://github.com/fevziismailsahin),
-[Aziz Azizi](https://github.com/Azizsin7)
-[Ayham Hasan.](https://github.com/ayhm01)
+| GitHub Profile |
+| :--- |
+| [Huda Alamassi](https://github.com/hudaalamassi) |
+| [Malak Battat](https://github.com/malakbattat) |
+| [Sadam Husen Ali](https://github.com/Urz1) |
+| [Chrismy Augustin](https://github.com/likechrisss) |
+| [F. Ismail SAHIN](https://github.com/fevziismailsahin) |
+| [Aziz Azizi](https://github.com/Azizsin7) |
+| [Ayham Hasan](https://github.com/ayhm01) |
 
 ___
 
@@ -34,92 +36,90 @@ Mental Health Chatbots
 
 ___
 
-## 🔍 Explore Our Project
+## Project Story & Domain
 
-   **📄** To read the full background and detailed version, see
-   [Milestone 1: Problem Identification](0_domain_study/README.md)
-   [Milestone 2: Data Collection](1_datasets/README.md)
-
-### 🔹Problem Statement
-
-  **📄** To read the full Problem Statement, see [Problem Statement](0_domain_study/problem_statement.md)
-
-* **Chatbot vs Human vs Hybrid Support in Mental Health Apps**
+### **Problem Statement**
 
 Mental health apps are bridging global care gaps, especially where stigma, cost,
 or shortages limit traditional access. Three main support models exist:
 
-* 🤖 **Chatbots**: 24/7, private, and scalable, but lack emotional depth.  
-* 🧑‍⚕️ **Humans**: Empathetic and nuanced, yet costly and less available.  
-* 🔁 **Hybrids**: Blend both, offering balance but may confuse users.
+* 🤖 Chat-bots – 24/7, private, and scalable, but lack emotional depth
 
-Each model has pros and cons, with success shaped by user context and needs.
-  
-* **Why It Matters**
+* 🧑‍⚕️ Humans – empathetic and nuanced, yet costly and less available
 
-  * Mental health affects 1 in 8 people globally, but access remains unequal.
+* 🔁 Hybrids – blend both, offering balance but may confuse users
 
-  * Chatbots offer 24/7 low-cost support, but may lack empathy.
+* Each model has pros and cons, with success shaped by user context and needs.
 
-  * Humans provide depth, but are less scalable.
+#### **Why it Matters**
 
-  * Hybrids aim to combine both—but how well do they work?
+* Mental health affects 1 in 8 people globally, but access remains unequal
 
-* **Goals**
+* Chat-bots provide scalable support but may lack empathy
 
-  * Systematically identify and categorize the most common user-reported failures
-   of mental health chatbots.
-  * Quantify the prevalence of these failure themes using public app store and
-  forum data.
-  * Compare failure themes between purely conversational AIs and a baseline
-  wellness app to isolate unique "conversational" failures.
-* **In Summary**
+* Humans provide depth but are less scalable
 
-To explores how mental health support—via chat-bots, humans, or hybrid
-systems—is experienced across cultures. Our aim: to inform more empathetic,
-effective, and inclusive digital care.
+* Hybrids aim to combine both—but their effectiveness is underexplored
 
-### 🔹Summary of Problem Understanding
+#### **Goals**
 
-  **📄** To read the full Summary of Problem Understanding,
-  see [Summary of Problem Understanding](0_domain_study/summary_of_our_understanding_of_the_problem_domain.md)
+* Systematically identify and categorize the most common user-reported failures in
+  mental health chat-bots
 
-We used **divergent thinking** to explore broad problem areas, then applied  
-**convergent thinking** to narrow our focus using feasibility and impact criteria.
-We chose to explore chatbot vs human support in mental health apps.
+* Quantify prevalence of failure themes using public app store and forum data
 
-* **Idea Evaluation Sheet**
+* Compare failures between purely conversational AIs and a baseline wellness app
+  to isolate unique “conversational” failures
 
-  All proposed project ideas and their comparison scores are documented in this
-  [spreadsheet](https://tinyurl.com/3r5a5jee)
-  This helped us select the most impactful and feasible topic.
+In Summary: This project explores how mental health support—via chat-bots,
+humans, or hybrid systems—is experienced across cultures, aiming to inform more
+empathetic, effective, and inclusive digital care.
 
-### Iceberg Model Overview
+___
 
-* **Event**: Users interact with chatbots—some feel helped, others feel unheard.
-* **Pattern**: Mental health apps are growing; many now rely on chatbots.  
-* **Structure**: Cost and scale drive chatbot use; regulation is limited.  
-* **Mental Model**: Belief in AI as a fix for care gaps and stigma sustains the system.
+## **Summary of Problem Understanding**
 
-### 🔹Research Question
+📄 Full version:
+[Summary of problem](0_domain_study/summary_of_our_understanding_of_the_problem_domain.md)
 
-   **📄** To read the full Research Questions, see
- [Research Question](0_domain_study/research_question.md)
+We applied divergent thinking to explore broad problem areas, then convergent
+thinking to narrow our focus using feasibility and impact criteria. The chosen
+focus: chatbot vs human support in mental health apps.
 
-Our refined research question, which is achievable through public data analysis,
-is:  
+Idea Evaluation: All proposed project ideas and their comparison scores are
+documented in this spreadsheet, which guided our topic selection.
 
-**What are the most prevalent themes of user-reported conversational failure in
-leading mental health chatbots, and what do these themes reveal about the gap
-between user expectations for emotional support and current algorithmic capabilities?**
+### **Iceberg Model Overview**
 
-This helps us focus our research on a specific, measurable aspect of the problem.
+* **Event:** Users interact with chat-bots—some feel helped, others feel unheard
+
+* **Pattern:** Mental health apps are growing; many rely on chat-bots
+
+* **Structure:** Cost and scale drive chatbot use; regulation is limited
+
+* **Mental Model:** Belief in AI as a fix for care gaps and stigma sustains the
+    system
+
+## **Research Question**
+
+📄 Full version: [research_question](0_domain_study/research_question.md)
+
+📄 Full version: [problem_statement](0_domain_study/problem_statement.md)
+
+Refined Question:
+
+    What are the most prevalent themes of user-reported conversational failure in
+    leading mental health chat-bots, and what do these themes reveal about the
+    gap between user expectations for emotional support and current algorithmic
+    capabilities?
+
+This ensures a focused, measurable analysis using public data while respecting privacy.
 
 ___
 
 ## 📁 **Directory Structure**
-
-```text
+<!-- markdownlint-disable MD046 -->
+``` terminal
 /
 ├── README.md                   - Project overview and main instructions
 ├── guide.md                    - Detailed guide on using this template
@@ -132,8 +132,7 @@ ___
 ├── /4_data_analysis/           - Scripts for in-depth analysis
 ├── /5_communication_strategy/  - Materials for communicating findings
 └── /6_final_presentation/      - Final presentation materials
-
-```
+````
 
 ## 🤝 Our Working Agreements
 
@@ -169,6 +168,9 @@ ___
 ___
 
 ### Replication
+
+[Method](Method.md) holds the technical workflow → reproducible but not
+overwhelming for a non-technical reader.
 
 #### 1. Clone the Repository
 
@@ -222,6 +224,8 @@ Examples:
 
 * baseline_app_themed_and_scored.csv
 
+* ...
+
 These files include:
 
 * review_text
@@ -234,6 +238,14 @@ These files include:
 
 * Additional metadata
 
+**Reproduce Analysis:**
+
+Follow notebooks and scripts in:
+[`2_data_preparation`](2_data_preparation)
+
+  ⬇️
+
+[`4_data_analysis`](4_data_analysis) in order
 ___
 
 ### ➕ **Contributing**
