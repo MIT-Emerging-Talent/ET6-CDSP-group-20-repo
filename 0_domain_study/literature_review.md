@@ -1,15 +1,15 @@
 # 📚 Literature Review – Digital Mental Health Support
 
 This section provides a brief overview of key findings and gaps in
-the research on Public Failure Analysis on leading Mental Health chatbots
+the research on Public Failure Analysis on leading Mental Health chat-bots
 
 ---
 
-## 🤖 Chatbots & Access
+## 🤖 Chat-bots & Access
 
 - **Fitzpatrick et al. (2017).** Delivering cognitive behavioral therapy
 to young adults with depression and anxiety using a fully automated agent.¹  
-Demonstrates the potential of conversational agents like Woebot to deliver
+Demonstrates the potential of conversational agents like Woe-bot to deliver
 effective, scalable CBT. However, limitations in emotional nuance and deeper
 therapeutic alliance remain.
 

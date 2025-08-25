@@ -64,7 +64,7 @@ more or less trusted depending on region.
 ## 🔁 Implications for Our Research
 
 - Cultural preferences may explain why some users disengage from chatbot
-  responses or prefer human touchpoints.
+  responses or prefer human touch points.
 - Hybrid models must be sensitive to **how** and **when** to introduce human
   interaction without breaching comfort.
 - Our sentiment analysis and empathy evaluation models must consider cultural
