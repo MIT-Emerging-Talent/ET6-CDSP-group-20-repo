@@ -37,7 +37,8 @@ sentiment of each review:
 * Compound scores were used to categorize reviews into positive, neutral,
 or negative sentiment.
 
-This helped us see how users emotionally react to chatbot support compared to baseline apps.
+This helped us see how users emotionally react to chatbot support compared to
+baseline apps.
 
 ## 4. Topic Modeling
 
