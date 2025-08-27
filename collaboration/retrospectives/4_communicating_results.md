@@ -94,3 +94,26 @@ could understand and use them.
 
 **Key Takeaway:**  
 I learned how to turn research into something practical and useful in real work.
+
+### **Sadam**
+
+### **Individual Retrospective: Sadam Husen**
+
+- **What did I accomplish during this milestone?**
+  - **I created the "Smoking Gun" Time Series visualization for Replika.**
+  - **I supported the team's narrative development.**
+
+- **What did I learn?**
+  - **The Power of Distillation:** I learned that having a complex analysis is only
+  half the battle. The real challenge is distilling dozens of charts and findings
+  into the 2-3 most powerful, "killer" insights that can anchor a story.
+  - **Data as a Persuasive Tool:** This milestone was a practical exercise in using
+  data not just to find patterns, but to build a persuasive argument.
+  - **The Importance of a Clear "Hand-off":** I learned that the transition from
+  a technical analysis notebook to a public-facing article requires a clear hand-off.
+- **What am I worried about, or what could I have done differently?**
+  - **I could have been more involved in the final writing process.** While I
+  provided the core analytical components, I was less involved in the final
+  crafting of the article's narrative. In the future, I want to practice bridging
+  that gap and take a more active role in the final storytelling and copywriting
+  myself.
