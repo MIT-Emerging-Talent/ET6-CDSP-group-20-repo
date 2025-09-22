@@ -20,16 +20,6 @@
   for the nuances involved in AI ethics and the importance of responsible
   development.
 
-#### Future Directions
-
-Moving forward, we aim to:
-
-* Ethical Frameworks: Develop guidelines to assist developers in creating
-  emotionally intelligent and ethically sound AI systems.
-
-* User-Centric Design: Advocate for design principles that prioritize user
-  well-being and trust.
-
 ### Aziz Azizi
 
 As the contributor to this milestone, I undertook the following responsibilities:
